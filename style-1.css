@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif; /* The font used */
+    background-color: #f0f0f0; /* Light grey background color */
+    display: flex; /* Center the app on the page */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the screen */
+    margin: 0;
+    background-color: burlywood;
+}
+
+.container {
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Space inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow around the container */
+    width: 300px; /* Width of the container */
+    text-align: center; /* Center text inside the container */
+  background-color: aqua;
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the title */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* Full width minus some padding */
+    padding: 10px; /* Space inside the input box */
+    margin-bottom: 10px; /* Space below the input box */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    padding: 10px; /* Space inside the button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor when hovering */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green when hovered */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* No padding */
+}
+
+li {
+    background-color:white; /* Light grey background for tasks */
+    padding: 10px; /* Space inside each task */
+    margin-bottom: 5px; /* Space below each task */
+    border-radius: 4px; /* Rounded corners */
+    display: flex; /* Flexbox to align items */
+    justify-content: space-between; /* Space between task text and delete button */
+    align-items: center; /* Align items vertically */
+}
+
+li .delete-btn {
+    background-color: #dc3545; /* Red background for delete button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor when hovering */
+}
+
+li .delete-btn:hover {
+    background-color: #c82333; /* Darker red when hovered */
+}
